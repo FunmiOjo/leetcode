@@ -1,7 +1,7 @@
 const { expect } = require('chai')
 const strStr = require('../strStr')
 
-describe.only('strStr', () => {
+describe('strStr', () => {
   it('returns the index of the first occurrence of the given needle string in the given haystack string', () => {
     expect(strStr('hello', 'll')).to.equal(2)
   })
