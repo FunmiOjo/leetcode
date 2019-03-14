@@ -1,6 +1,5 @@
 /*
 Binary search of integers from 2 to n/2
-2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
 */
 const mySqrt = num => {
   if (num < 2) {
