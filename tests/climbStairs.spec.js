@@ -1,7 +1,7 @@
 const { expect } = require('chai')
 const climbStairs = require('../climbStairs')
 
-describe.only('climbStairs', () => {
+describe('climbStairs', () => {
   it('returns number of distinct ways to add 1 and 2 to sum up n', () => {
     expect(climbStairs(2)).to.equal(2)
     expect(climbStairs(3)).to.equal(3)
