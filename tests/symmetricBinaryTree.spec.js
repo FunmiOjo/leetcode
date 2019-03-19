@@ -2,7 +2,7 @@ const { expect } = require('chai')
 const symmetricBinaryTree = require('../symmetricBinaryTree')
 const BinaryTreeNode = require('../BinaryTreeNode')
 
-describe.only('symmetricBinaryTree', () => {
+describe('symmetricBinaryTree', () => {
   it('checks whether a binary tree is symmetrical', () => {
     const a = new BinaryTreeNode(1)
     a.left = new BinaryTreeNode(2)
